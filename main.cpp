@@ -1,14 +1,18 @@
-//
-// Created by thales on 14/06/18.
-//
-
 #include <iostream>
+#include "Grafo.h"
 
 using namespace std;
 
-int main (){
+int main()
+{
+    srand(time(NULL));
 
-    cout << "teste";
+    Grafo g("teste.txt");
 
+    g.imprime();
+    Grafo* y = g.Kruskal();
+    y->imprime();
+    exit(4);
     return 0;
+
 }
