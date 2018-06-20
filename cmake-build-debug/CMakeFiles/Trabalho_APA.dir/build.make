@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.4\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.1.4\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA
+CMAKE_SOURCE_DIR = "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Trabalho_APA.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/Trabalho_APA.dir/flags.make
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj: CMakeFiles/Trabalho_APA.dir/flags.make
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj: CMakeFiles/Trabalho_APA.dir/includes_CXX.rsp
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj: ../src/Aresta.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\Aresta.cpp.obj -c C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\Aresta.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\Aresta.cpp.obj -c "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\Aresta.cpp"
 
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\Aresta.cpp > CMakeFiles\Trabalho_APA.dir\src\Aresta.cpp.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\Aresta.cpp" > CMakeFiles\Trabalho_APA.dir\src\Aresta.cpp.i
 
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\Aresta.cpp -o CMakeFiles\Trabalho_APA.dir\src\Aresta.cpp.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\Aresta.cpp" -o CMakeFiles\Trabalho_APA.dir\src\Aresta.cpp.s
 
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj.requires:
 
@@ -84,16 +84,16 @@ CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj.provides.build: CMakeFiles/Trabal
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj: CMakeFiles/Trabalho_APA.dir/flags.make
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj: CMakeFiles/Trabalho_APA.dir/includes_CXX.rsp
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj: ../src/Grafo.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\Grafo.cpp.obj -c C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\Grafo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\Grafo.cpp.obj -c "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\Grafo.cpp"
 
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\Grafo.cpp > CMakeFiles\Trabalho_APA.dir\src\Grafo.cpp.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\Grafo.cpp" > CMakeFiles\Trabalho_APA.dir\src\Grafo.cpp.i
 
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\Grafo.cpp -o CMakeFiles\Trabalho_APA.dir\src\Grafo.cpp.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\Grafo.cpp" -o CMakeFiles\Trabalho_APA.dir\src\Grafo.cpp.s
 
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj.requires:
 
@@ -109,16 +109,16 @@ CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj.provides.build: CMakeFiles/Trabalh
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj: CMakeFiles/Trabalho_APA.dir/flags.make
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj: CMakeFiles/Trabalho_APA.dir/includes_CXX.rsp
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj: ../src/No.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\No.cpp.obj -c C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\No.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\No.cpp.obj -c "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\No.cpp"
 
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_APA.dir/src/No.cpp.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\No.cpp > CMakeFiles\Trabalho_APA.dir\src\No.cpp.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\No.cpp" > CMakeFiles\Trabalho_APA.dir\src\No.cpp.i
 
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_APA.dir/src/No.cpp.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\src\No.cpp -o CMakeFiles\Trabalho_APA.dir\src\No.cpp.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\No.cpp" -o CMakeFiles\Trabalho_APA.dir\src\No.cpp.s
 
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj.requires:
 
@@ -131,19 +131,44 @@ CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj.provides: CMakeFiles/Trabalho_APA.dir
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj.provides.build: CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj
 
 
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: CMakeFiles/Trabalho_APA.dir/flags.make
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: CMakeFiles/Trabalho_APA.dir/includes_CXX.rsp
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: ../src/HeuristicaGulosa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\src\HeuristicaGulosa.cpp.obj -c "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\HeuristicaGulosa.cpp"
+
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\HeuristicaGulosa.cpp" > CMakeFiles\Trabalho_APA.dir\src\HeuristicaGulosa.cpp.i
+
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\src\HeuristicaGulosa.cpp" -o CMakeFiles\Trabalho_APA.dir\src\HeuristicaGulosa.cpp.s
+
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.requires
+
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.provides: CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Trabalho_APA.dir\build.make CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.provides.build
+.PHONY : CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.provides
+
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.provides.build: CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj
+
+
 CMakeFiles/Trabalho_APA.dir/main.cpp.obj: CMakeFiles/Trabalho_APA.dir/flags.make
 CMakeFiles/Trabalho_APA.dir/main.cpp.obj: CMakeFiles/Trabalho_APA.dir/includes_CXX.rsp
 CMakeFiles/Trabalho_APA.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Trabalho_APA.dir/main.cpp.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\main.cpp.obj -c C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Trabalho_APA.dir/main.cpp.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Trabalho_APA.dir\main.cpp.obj -c "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\main.cpp"
 
 CMakeFiles/Trabalho_APA.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Trabalho_APA.dir/main.cpp.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\main.cpp > CMakeFiles\Trabalho_APA.dir\main.cpp.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\main.cpp" > CMakeFiles\Trabalho_APA.dir\main.cpp.i
 
 CMakeFiles/Trabalho_APA.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Trabalho_APA.dir/main.cpp.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\MINGW3~2.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\main.cpp -o CMakeFiles\Trabalho_APA.dir\main.cpp.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\main.cpp" -o CMakeFiles\Trabalho_APA.dir\main.cpp.s
 
 CMakeFiles/Trabalho_APA.dir/main.cpp.obj.requires:
 
@@ -161,6 +186,7 @@ Trabalho_APA_OBJECTS = \
 "CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj" \
 "CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj" \
 "CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj" \
+"CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj" \
 "CMakeFiles/Trabalho_APA.dir/main.cpp.obj"
 
 # External object files for target Trabalho_APA
@@ -169,12 +195,13 @@ Trabalho_APA_EXTERNAL_OBJECTS =
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj
+Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/main.cpp.obj
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/build.make
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/linklibs.rsp
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/objects1.rsp
 Trabalho_APA.exe: CMakeFiles/Trabalho_APA.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Trabalho_APA.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Trabalho_APA.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Trabalho_APA.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -185,6 +212,7 @@ CMakeFiles/Trabalho_APA.dir/build: Trabalho_APA.exe
 CMakeFiles/Trabalho_APA.dir/requires: CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj.requires
 CMakeFiles/Trabalho_APA.dir/requires: CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj.requires
 CMakeFiles/Trabalho_APA.dir/requires: CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj.requires
+CMakeFiles/Trabalho_APA.dir/requires: CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj.requires
 CMakeFiles/Trabalho_APA.dir/requires: CMakeFiles/Trabalho_APA.dir/main.cpp.obj.requires
 
 .PHONY : CMakeFiles/Trabalho_APA.dir/requires
@@ -194,6 +222,6 @@ CMakeFiles/Trabalho_APA.dir/clean:
 .PHONY : CMakeFiles/Trabalho_APA.dir/clean
 
 CMakeFiles/Trabalho_APA.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles\Trabalho_APA.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA" "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA" "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug" "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug" "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles\Trabalho_APA.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Trabalho_APA.dir/depend
 

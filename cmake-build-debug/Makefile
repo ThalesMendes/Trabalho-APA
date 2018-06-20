@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.4\bin\cmake\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.1.4\bin\cmake\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA
+CMAKE_SOURCE_DIR = "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cma
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.1.4\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.1.4\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2018.1.5\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Thali\Documents\Trabalho-APA-master\Trabalho-APA\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Thales Castro\Desktop\TrabalhoAPA\Trabalho-APA\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -203,6 +203,33 @@ src/Grafo.cpp.s:
 	$(MAKE) -f CMakeFiles\Trabalho_APA.dir\build.make CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.s
 .PHONY : src/Grafo.cpp.s
 
+src/HeuristicaGulosa.obj: src/HeuristicaGulosa.cpp.obj
+
+.PHONY : src/HeuristicaGulosa.obj
+
+# target to build an object file
+src/HeuristicaGulosa.cpp.obj:
+	$(MAKE) -f CMakeFiles\Trabalho_APA.dir\build.make CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj
+.PHONY : src/HeuristicaGulosa.cpp.obj
+
+src/HeuristicaGulosa.i: src/HeuristicaGulosa.cpp.i
+
+.PHONY : src/HeuristicaGulosa.i
+
+# target to preprocess a source file
+src/HeuristicaGulosa.cpp.i:
+	$(MAKE) -f CMakeFiles\Trabalho_APA.dir\build.make CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.i
+.PHONY : src/HeuristicaGulosa.cpp.i
+
+src/HeuristicaGulosa.s: src/HeuristicaGulosa.cpp.s
+
+.PHONY : src/HeuristicaGulosa.s
+
+# target to generate assembly for a file
+src/HeuristicaGulosa.cpp.s:
+	$(MAKE) -f CMakeFiles\Trabalho_APA.dir\build.make CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.s
+.PHONY : src/HeuristicaGulosa.cpp.s
+
 src/No.obj: src/No.cpp.obj
 
 .PHONY : src/No.obj
@@ -248,6 +275,9 @@ help:
 	@echo ... src/Grafo.obj
 	@echo ... src/Grafo.i
 	@echo ... src/Grafo.s
+	@echo ... src/HeuristicaGulosa.obj
+	@echo ... src/HeuristicaGulosa.i
+	@echo ... src/HeuristicaGulosa.s
 	@echo ... src/No.obj
 	@echo ... src/No.i
 	@echo ... src/No.s

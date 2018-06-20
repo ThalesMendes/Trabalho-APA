@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA
+# Install script for directory: C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

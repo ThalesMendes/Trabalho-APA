@@ -10,9 +10,9 @@ int main()
     Grafo g("teste.txt");
 
     g.imprime();
-    Grafo* y = g.Kruskal();
-    y->imprime();
-    exit(4);
+
+//    g.teste_Heuristica_Gulosa();
+
     return 0;
 
 }

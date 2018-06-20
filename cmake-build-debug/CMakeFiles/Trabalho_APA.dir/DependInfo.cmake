@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/main.cpp" "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/main.cpp.obj"
-  "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/src/Aresta.cpp" "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj"
-  "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/src/Grafo.cpp" "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj"
-  "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/src/No.cpp" "C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj"
+  "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/main.cpp" "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/main.cpp.obj"
+  "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/Aresta.cpp" "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj"
+  "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/Grafo.cpp" "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj"
+  "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/HeuristicaGulosa.cpp" "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj"
+  "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/No.cpp" "C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

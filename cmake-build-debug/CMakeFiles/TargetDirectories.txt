@@ -1,3 +1,3 @@
-C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir
-C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/Trabalho_APA.dir
+C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj"
   "CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj"
   "CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj"
+  "CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj"
   "CMakeFiles/Trabalho_APA.dir/main.cpp.obj"
   "Trabalho_APA.pdb"
   "Trabalho_APA.exe"

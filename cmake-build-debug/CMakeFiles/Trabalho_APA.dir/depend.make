@@ -14,6 +14,11 @@ CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj: ../include/Grafo.h
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj: ../include/No.h
 CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj: ../src/Grafo.cpp
 
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: ../include/Aresta.h
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: ../include/HeuristicaGulosa.h
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: ../include/No.h
+CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj: ../src/HeuristicaGulosa.cpp
+
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj: ../include/Aresta.h
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj: ../include/No.h
 CMakeFiles/Trabalho_APA.dir/src/No.cpp.obj: ../src/No.cpp

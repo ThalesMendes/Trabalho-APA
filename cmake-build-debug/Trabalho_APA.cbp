@@ -8,23 +8,23 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho_APA">
-				<Option output="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Trabalho_APA.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug"/>
+				<Option output="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Trabalho_APA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/include"/>
+					<Add directory="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/include"/>
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32"/>
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward"/>
@@ -33,20 +33,20 @@
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_APA"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_APA"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Trabalho_APA/fast">
-				<Option output="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Trabalho_APA.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug"/>
+				<Option output="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Trabalho_APA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/include"/>
+					<Add directory="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/include"/>
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++"/>
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/mingw32"/>
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include/c++/backward"/>
@@ -55,97 +55,130 @@
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/5.1.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_APA/fast"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 Trabalho_APA/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/.idea/Trabalho-APA.iml">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/.name">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/.idea/misc.xml">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/Trabalho-APA.iml">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/.idea/modules.xml">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/codeStyles/Project.xml">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/.idea/workspace.xml">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/misc.xml">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/ArvoreDeBuscaLargura.txt">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/modules.xml">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/ArvoreDeBuscaProfundidade.txt">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/vcs.xml">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/GrafoFinal.txt">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/.idea/workspace.xml">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/GrafosFinal.cbp">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/ArvoreDeBuscaLargura.txt">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/GrafosFinal.depend">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/ArvoreDeBuscaProfundidade.txt">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/GrafosFinal.layout">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/CMakeLists.txt">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/bin/Debug/GrafosFinal">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/GrafoFinal.txt">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/bin/Debug/GrafosFinal.exe">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/GrafosFinal.cbp">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/grafo_1000_1.txt">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/GrafosFinal.depend">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/include/Aresta.h">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/GrafosFinal.layout">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/include/Grafo.h">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/bin/Debug/GrafosFinal">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/include/No.h">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/bin/Debug/GrafosFinal.exe">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/main.cpp">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/CMakeCache.txt">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/src/Aresta.cpp">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Makefile">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/src/Grafo.cpp">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Trabalho_APA.cbp">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/src/No.cpp">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/Trabalho_APA.exe">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/teste.txt">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/cmake_install.cmake">
 			<Option target="Trabalho_APA"/>
 		</Unit>
-		<Unit filename="C:/Users/Thali/Documents/Trabalho-APA-master/Trabalho-APA/CMakeLists.txt">
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/cmake-build-debug/teste.txt">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/grafo_1000_1.txt">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/include/Aresta.h">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/include/Grafo.h">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/include/HeuristicaGulosa.h">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/include/No.h">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/main.cpp">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/Aresta.cpp">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/Grafo.cpp">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/HeuristicaGulosa.cpp">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/No.cpp">
+			<Option target="Trabalho_APA"/>
+		</Unit>
+		<Unit filename="C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

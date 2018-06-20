@@ -77,12 +77,14 @@ private:
     bool existe_No(int identificacao);
     int get_Indice(int id);
 
-    int valor_Testes[3000];///< Armazena os valores dos testes para a Heurística.
-    int num_Testes;		   ///< Número de vezes que a heurística foi testada.
-    int qtd_De_Nos;	   	   ///< Armazena Quantidade de Nós.
-    bool flag_Direcionado; ///< Valor lógico que indica se o grafo é direcionado ou não.
-    bool flag_Ponderado;   ///< Valor lógico que indica ponderado.
-    list<No> Nos;		   ///< Lista de Nós do Grafo.
+
+
+	int valor_Testes[3000]; ///< Armazena os valores dos testes para a Heuristica.
+	int num_Testes;		   ///< Numero de vezes que a heuristica foi testada.
+    int qtd_De_Nos;	   	   ///< Armazena Quantidade de Nï¿½s.
+    bool flag_Direcionado; ///< Valor lï¿½gico que indica se o grafo ï¿½ direcionado ou nï¿½o.
+    bool flag_Ponderado;   ///< Valor lï¿½gico que indica ponderado.
+    list<No> Nos;		   ///< Lista de Nï¿½s do Grafo.
 };
 
 #endif // GRAFO_H
