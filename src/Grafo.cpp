@@ -25,7 +25,6 @@ Grafo::Grafo(string nome_arquivo)
 
 }
 
-
 /********************************************//**
  * \Construtor do Grafo sem parâmetros.
  *
@@ -108,143 +107,6 @@ void Grafo::imprime()
     }
 }
 
-/********************************************//**
- * \Retorna o grau do grafo
- *
- * \Retorna um inteiro com o valor do grau do grafo.
- *
- * Retorna um inteiro contendo o valor do maior grau entre os nos do grafo.
- ***********************************************/
-int Grafo::get_Grau_Grafo()
-{
-    list<No>::iterator i;
-    int grau = 0;
-    for(i = Nos.begin(); i != Nos.end(); i++)
-    {
-        if(i->get_Grau_No() > grau)
-            grau = i->get_Grau_No();
-    }
-    return grau;
-}
-
-
-/********************************************//**
- * \brief Função para teste da heurística gulosa randômica
- *
- * \return    Não há retorno;
- *
- * A função chama a função conjunto dominante minimo com os parâmetros adequados. Este processo irá se repetir até que o melhor resultado não se altere por 5 iterações.
- ***********************************************/
-//void Grafo::teste_Heuristica_Randomica()
-//{
-//    float* media =  new float();
-//    cout << " COMECO DO TESTE HEURISTICA GULOSA RANDOMICA ----------------------------------------------------------------------" << endl << endl;
-//    int contador = 0;
-//    int aux;
-//    int best = 9999999;
-//    while(contador<5)
-//
-//    {
-//        contador ++;
-//        aux = conjunto_Dominante_Minimo(0.25,30,media);
-//        if(aux<best)
-//        {
-//            best = aux;
-//            contador = 0;
-//        }
-//    }
-//    cout << " O MELHOR VALOR FOI : " << best << endl;
-//    cout << " FIM DO TESTE HEURISTICA GULOSA RANDOMICA ----------------------------------------------------------------------" << endl  << endl << endl;
-//
-//}
-
-
-/********************************************//**
-* \brief Função para teste da heurística gulosa randômica reativa
-*
-* \return    Não há retorno;
-*
-* A função chama a função conjunto dominante minimo com os parâmetros adequados. Este processo irá se repetir até que o melhor resultado não se altere por 25 iterações.
-*O alpha de cada iteração é sorteado de acordo com um vetor de probabilidades, este sendo atualizado baseado nos resultados que cada alpha conseguiu em relação ao melhor resultado já encontrado.
-***********************************************/
-//void Grafo::teste_Heuristica_Randomica_Reativa()
-//{
-//    float* media =  new float();
-//    cout << " COMECO DO TESTE HEURISTICA GULOSA RANDOMICA REATIVA ----------------------------------------------------------------------" << endl << endl;
-//    int contador = 0;
-//    float vetAlphas[10];
-//    float probabilisdadesAlpha[10];
-//    float primeiraProb = 0.05;
-//    for(int i= 0; i<10; i++)
-//    {
-//        probabilisdadesAlpha[i] = 0.1;
-//        vetAlphas[i] = primeiraProb + primeiraProb*i;
-//        cout<< vetAlphas[i]<< endl;
-//    }
-//    int aux;
-//    float auxSoma = 1;
-//    float auxAlpha2;
-//    float auxAlpha;
-//    float alpha;
-//    int flag = 0;
-//    int best = 99999;
-//    float q;
-//    float novaSomaProbabilidades = 0;
-//    int identificador;
-//    int vetSoma[10];
-//    int vetIteracao[10];
-//    for(int i = 0; i< 10; i++)
-//    {
-//        vetIteracao[i]=0;
-//        vetSoma[i] = 0;
-//    }
-//
-//    while(contador<25)
-//    {
-//        flag = 0;
-//        novaSomaProbabilidades = 0;
-//        auxAlpha2 = (float)(rand()%101) ;
-//        auxAlpha = auxAlpha2*0.01;
-//
-//        auxSoma = 1;
-//        flag = 0;
-//        for(int i= 9; i>=0; i--)
-//        {
-//            if(auxAlpha>(auxSoma-probabilisdadesAlpha[i])&& flag ==0)
-//            {
-//                alpha = vetAlphas[i];
-//                flag = 1;
-//                identificador = i;
-//            }
-//            auxSoma -= probabilisdadesAlpha[i];
-//        }
-//        contador ++;
-//        cout<<"alpha"<<alpha<<endl;
-//        aux = conjunto_Dominante_Minimo(alpha,30,media);
-//        vetIteracao[identificador]++;
-//        vetSoma[identificador]+=aux;
-//        if(aux<best)
-//        {
-//            best = aux;
-//            contador = 0;
-//        }
-//        q = best/(vetSoma[identificador]/vetIteracao[identificador]);
-//        probabilisdadesAlpha[identificador] = q;
-//        for(int i= 0; i<10; i++)
-//        {
-//            novaSomaProbabilidades+=probabilisdadesAlpha[i];
-//        }
-//        for(int i= 0; i<10; i++)
-//        {
-//            probabilisdadesAlpha[i] = probabilisdadesAlpha[i]/novaSomaProbabilidades;
-//        }
-//
-//
-//    }
-//    cout << " O MELHOR VALOR FOI : " << best << endl;
-//    cout << " FIM DO TESTE HEURISTICA GULOSA RANDOMICA REATIVA ----------------------------------------------------------------------" << endl  << endl << endl;
-//}
-
 
 /********************************************//**
  * \brief Funcao verifica desvio padrao
@@ -300,14 +162,14 @@ void Grafo::aux_Insere_Aresta(int id1,int id2,float peso)
     ///< Se o ponteiro ainda aponta para nulo, então passará a apontar para novo nó que será incluído no final da Lista de Nós.
     ///< Insere a aresta/arco na adjacencia do nó.
     ///< Aresta/arco id2-id1 é incluída se, e somente se, o grafo não for direcionado.
-    if(pont_id1 == 0)
+    if(pont_id1 == nullptr)
     {
         Nos.push_back(No(id1));
         pont_id1 = &Nos.back();
         pont_id1->add_Adjacente(id2,peso);
         qtd_De_Nos++;
 
-        if(pont_id2 == 0)
+        if(pont_id2 == nullptr)
         {
             Nos.push_back(No(id2));
             pont_id2 = &Nos.back();
@@ -373,7 +235,7 @@ void Grafo::le_Grafo(string nome)
         {
             arq_grafo >> id1 >> id2;
             arq_grafo >> peso;
-            aux_Insere_Aresta(id1,id2,peso);
+            aux_Insere_Aresta(id1,id2, peso);
         }
     }
     arq_grafo.close();
@@ -458,3 +320,4 @@ Grafo::~Grafo()
 
     Nos.clear();
 }
+

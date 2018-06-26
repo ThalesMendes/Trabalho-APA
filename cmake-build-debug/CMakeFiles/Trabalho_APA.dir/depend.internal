@@ -4,6 +4,7 @@
 CMakeFiles/Trabalho_APA.dir/main.cpp.obj
  ../include/Aresta.h
  ../include/Grafo.h
+ ../include/HeuristicaGulosa.h
  ../include/No.h
  C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/main.cpp
 CMakeFiles/Trabalho_APA.dir/src/Aresta.cpp.obj
@@ -16,6 +17,7 @@ CMakeFiles/Trabalho_APA.dir/src/Grafo.cpp.obj
  C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/Grafo.cpp
 CMakeFiles/Trabalho_APA.dir/src/HeuristicaGulosa.cpp.obj
  ../include/Aresta.h
+ ../include/Grafo.h
  ../include/HeuristicaGulosa.h
  ../include/No.h
  C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/src/HeuristicaGulosa.cpp

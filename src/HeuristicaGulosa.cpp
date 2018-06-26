@@ -11,6 +11,12 @@
 
 using namespace std;
 
+
+HeuristicaGulosa::HeuristicaGulosa(Grafo grafo){
+    this->grafo = grafo;
+    this->Nos = grafo.get_Nos();
+}
+
 /********************************************//**
  * \brief Função para teste da heurística gulosa
  *
@@ -24,6 +30,7 @@ void HeuristicaGulosa::teste_heuristica_gulosa()
     cout << " COMECO DO TESTE HEURISTICA GULOSA ----------------------------------------------------------------------" << endl << endl;
 
     int x = conjunto_Dominante_Minimo(0.0,1, media);
+
     cout<< "O RESULTADO FOI: "<<x<<endl;
 
     cout << " FIM DO TESTE HEURISTICA GULOSA ----------------------------------------------------------------------" << endl  << endl << endl;
@@ -54,12 +61,12 @@ int HeuristicaGulosa::conjunto_Dominante_Minimo(float alpha, int iteracoes, floa
 
         float time1 = clock();
 
-
         vet[i] = aux_Conjunto_Dominante_Minimo(alpha);
 
         valor_Testes[num_Testes] = vet[i];
 
         num_Testes++;
+
         float time2 = clock();
 
         matTempo[i] = time2 - time1;
@@ -91,7 +98,6 @@ int HeuristicaGulosa::conjunto_Dominante_Minimo(float alpha, int iteracoes, floa
     int somaFinal = 0;
     for(int i = 0; i < iteracoes; i++)
     {
-
         somaFinal += parcial[i];
     }
 
@@ -101,12 +107,11 @@ int HeuristicaGulosa::conjunto_Dominante_Minimo(float alpha, int iteracoes, floa
 
     /*cout << " A media para alpha "<< alpha << "e " << iteracoes << " iteracoes foi de: " << media << endl;
     cout << " O desvio padrao para alpha "<< alpha << "e " << iteracoes << " iteracoes foi de: " << desvio << endl;*/
-    for(int i = 0; i< iteracoes; i++)
-    {
-
-        //cout << "Resultado com alpha " << alpha <<  " : " << vet[i] << "   Tempo de execução: " << matTempo[i] << endl;
-    }
-    // cout << "teste best :" << best << endl;
+//    for(int i = 0; i< iteracoes; i++)
+//    {
+//        //cout << "Resultado com alpha " << alpha <<  " : " << vet[i] << "   Tempo de execução: " << matTempo[i] << endl;
+//    }
+//     cout << "teste best :" << best << endl;
     return best;
 }
 
@@ -125,29 +130,26 @@ int HeuristicaGulosa::conjunto_Dominante_Minimo(float alpha, int iteracoes, floa
 
 int HeuristicaGulosa::aux_Conjunto_Dominante_Minimo(float alpha)
 {
-
     list<No>::iterator i;
     int contador = 0;
-
     list<int> listaAux;
 
-
+//Coloco os caras na listaAux
     for(i = Nos.begin(); i != Nos.end(); i++)
     {
-
         listaAux.push_back(i->get_Id());
-
         i->set_Grau_No_Heuristica();
         if(i->get_Id()==(get_Qtd_Nos()-1))
         {
             break;
         }
-
     }
 
     int contador2 = 0;
+
     for(i = Nos.begin(); i != Nos.end(); i++)
     {
+        //todo
         if(i->get_Grau_No_Heuristica()==0)
         {
             contador += i->get_Peso_No();
@@ -165,7 +167,7 @@ int HeuristicaGulosa::aux_Conjunto_Dominante_Minimo(float alpha)
                 {
                     if(j->get_Id() == lista[0])
                     {
-                        if(((i->get_Grau_No_Heuristica())/(i->get_Peso_No()))>((j->get_Grau_No_Heuristica())/(j->get_Peso_No())))
+                        if(((i->get_Grau_No_Heuristica())/(i->get_Peso_No())) > ((j->get_Grau_No_Heuristica())/(j->get_Peso_No())))
                         {
                             lista2 = j->lista_Adjacencias();
                             int t = j->get_Grau_No();

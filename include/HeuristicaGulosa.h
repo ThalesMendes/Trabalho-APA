@@ -9,6 +9,7 @@
 #include "No.h"
 #include <iostream>
 #include "stdio.h"
+#include "Grafo.h"
 #include <fstream>
 #include <string>
 #include <algorithm>
@@ -21,6 +22,8 @@
 class HeuristicaGulosa {
 
 public:
+    HeuristicaGulosa(Grafo grafo);
+
     void teste_heuristica_gulosa();
     int conjunto_Dominante_Minimo(float alpha, int iteracoes, float *media2);
 
@@ -29,6 +32,8 @@ private:
     void exclui_No_Heuristica(int id);
     bool verifica_Adjacentes(int id1, int id2);
     int get_Qtd_Nos();
+
+    Grafo grafo;
 
     int qtd_De_Nos;	   	   ///< Armazena Quantidade de N�s.
     bool flag_Direcionado; ///< Valor l�gico que indica se o grafo � direcionado ou n�o.

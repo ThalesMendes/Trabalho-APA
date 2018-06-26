@@ -43,6 +43,8 @@ iostream
 -
 stdio.h
 ../include/stdio.h
+Grafo.h
+../include/Grafo.h
 fstream
 -
 string
@@ -70,6 +72,8 @@ Aresta.h
 
 C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/main.cpp
 iostream
+-
+HeuristicaGulosa.h
 -
 Grafo.h
 C:/Users/Thales Castro/Desktop/TrabalhoAPA/Trabalho-APA/Grafo.h
